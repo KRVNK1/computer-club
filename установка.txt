@@ -1,0 +1,9 @@
+Установить composer и npm
+
+Создать файл .env и исправить его
+cp .env.example .env
+php artisan key:generate
+
+Создать таблицы кеша
+php artisan cache:table
+php artisan migrate
